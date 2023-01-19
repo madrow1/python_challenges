@@ -15,7 +15,7 @@ def decimal_to_binary(convert):
         else:
             continue
 
-    return print(binary[::-1])
+    return print(" ".join(str(binary[::-1])))
 
 decimal_to_binary(345)
 
