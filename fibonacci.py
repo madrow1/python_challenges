@@ -1,9 +1,15 @@
-def fib(count):
-    seq = [0] 
-    for i in range(count):
-        num = seq[i] + i*i-1 
-        seq.append(num)
-        print(seq)
+def fib(terms):
+    n1, n2 = 0,1
+    count = 0
+    seq = []
+    while count < terms: 
+        print(count)
+        nth = n1 + n2
+        n1 = n2 
+        n2 = nth
+        seq.append(nth)
+        count += 1
     return seq
+
 
 print(fib(20))
