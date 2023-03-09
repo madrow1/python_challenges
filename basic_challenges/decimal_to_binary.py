@@ -1,4 +1,6 @@
 
+
+
 def decimal_to_binary(convert):
     
     binary = [0,0,0,0,0,0,0,0,0,0]

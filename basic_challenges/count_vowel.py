@@ -1,5 +1,7 @@
 
-string = "ouija"
+string = "Ouija"
+
+# Takes a single param as input, compares the characters in that string to a list of vowels and if the vowels match iterates the count variable which is then returned 
 
 def count_vowel(input):
     count = 0
